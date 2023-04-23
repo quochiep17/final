@@ -1,0 +1,50 @@
+.todo-edit {
+    position: relative;
+}
+
+.todo-edit .todo-form {
+    position: absolute;
+    top: 40px;
+    left: 300px;
+}
+
+.todo-edit .todo-form .todo-row {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.todo-edit .todo-form .todo-row label {
+    display: block;
+    width: 100px;
+}
+
+.todo-edit .todo-form .todo-row input {
+    width: 300px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    color: black;
+}
+
+.todo-edit .todo-form .todo-row input:focus {
+    outline: none;
+}
+
+
+
+.todo-edit .todo-form .todo-row .todo-status input {
+    width: 15px;
+}
+
+.todo-edit .todo-form .todo-row button {
+    background-color: mediumslateblue;
+    border: none;
+    width: 100px;
+    height: 50px;
+    font-size: x-large;
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+}

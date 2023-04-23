@@ -1,0 +1,23 @@
+.todo-sidebar {
+    background-color: orange;
+    height: 643px;
+}
+
+.todo-sidebar .todo-menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+.todo-sidebar .todo-menu li {
+    list-style: none;
+    border-bottom: 2px solid #fff;
+    padding: 10px;
+}
+
+.todo-sidebar .todo-menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: x-large;
+}

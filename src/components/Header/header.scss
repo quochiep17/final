@@ -1,0 +1,61 @@
+.todo-header {
+    height: 70px;
+    background-color: mediumslateblue;
+    position: relative;
+}
+
+.todo-header .todo-create li {
+    list-style: none;
+    text-align: center;
+}
+
+.todo-header .todo-create li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 0 10px 10px 0;
+    padding: 10px;
+    position: absolute;
+    left: 10px;
+    width: 200px;
+    top: 10px;
+}
+
+.todo-header .todo-search {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.todo-header .todo-search input {
+    height: 40px;
+    width: 500px;
+    // background-color: blue;
+    background-color: mediumslateblue;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 10px 0 0 10px;
+
+}
+
+.todo-header .todo-search input:focus {
+    outline: none;
+}
+
+.todo-header .todo-search input::placeholder {
+    color: #625b5b;
+}
+
+.todo-header .todo-search button {
+    height: 40px;
+    width: 100px;
+    margin-left: 10px;
+    background-color: mediumslateblue;
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 20px;
+    border-radius: 0 10px 10px 0;
+}

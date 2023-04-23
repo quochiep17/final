@@ -1,0 +1,44 @@
+.todo-create {
+    position: relative;
+}
+
+.todo-create .todo-form {
+    position: absolute;
+    top: 40px;
+    left: 300px;
+}
+
+.todo-create .todo-form .todo-row {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.todo-create .todo-form .todo-row label {
+    display: block;
+    width: 100px;
+}
+
+.todo-create .todo-form .todo-row input {
+    width: 300px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    color: black;
+}
+
+.todo-create .todo-form .todo-row input:focus {
+    outline: none;
+}
+
+.todo-create .todo-form .todo-row button {
+    background-color: mediumslateblue;
+    border: none;
+    width: 100px;
+    height: 50px;
+    font-size: x-large;
+    color: #fff;
+    margin-left: 150px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
